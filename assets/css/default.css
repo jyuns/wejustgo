@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'noto';
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    src: url(../../static/font/NotoSansKr/NotoSansKR-Regular.woff) format('woff'),
+         url(../../static/font/NotoSansKr/NotoSansKR-Regular.otf) format('opentype');
+  }
+
+/* global font size */
+.txt-2xs {
+    font-size: 12px;
+}
+
+.txt-xs {
+    font-size: 14px;
+}
+
+.txt-sm {
+    font-size: 16px;
+}
+
+.txt-md {
+    font-size: 18px;
+}
+
+.txt-lg {
+    font-size: 21px;
+}
+
+.txt-xl {
+    font-size: 24px;
+}
+
+.txt-2xl {
+    font-size: 32px;
+}
+
+.txt-3xl {
+    font-size: 36px;
+}
+
+.txt-4xl {
+    font-size: 48px;
+}
+
+.txt-shadow {
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.txt-bold {
+    font-weight: 600;
+}
+.txt-bolder {
+    font-weight:900;
+}
+
+.txt-logo {
+    font-weight:900;
+    font-size:36px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.no-margin {
+    margin-bottom:0;
+}
+
+.flex-row {
+    align-items: center;
+    display:flex;
+}
+
+.flex-column {
+    display:flex;
+    flex-direction: column;
+}
+
+.margin-bottom {
+    margin-bottom:1em;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.default-padding {
+    padding: 16px;
+}
+
+* {
+    /* global transition */
+    transition: .4s cubic-bezier(.22,.61,.36,1);
+    font-family: noto;
+    /* global font */
+    letter-spacing : -.038rem;
+    scroll-behavior: smooth;
+}
+
+/* ant design css */
+
+.ant-card-meta-description {
+    height:40px!important;
+}
+
+.ant-anchor-ink::before {
+    background-color: white!important;
+}
+.ant-anchor-ink-ball {
+    width:6px!important;
+    height:6px!important;
+    background : #1890ff!important;
+}
+
+.ant-list-item-meta-description {
+    white-space: pre-line;
+    word-break: break-all;
+    letter-spacing:normal;
+    color:#666;
+}
+
+.ant-rate-star {
+    margin:0 4px!important;
+}
+
+.chat-room__logo {
+    width: 30px;
+    height:30px;
+    border-radius: 4px;
+    background: #eee;
+    display: inline-block;
+    background-size:cover;
+    background-position:center;
+}
